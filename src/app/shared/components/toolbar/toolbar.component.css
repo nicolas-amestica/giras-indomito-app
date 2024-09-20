@@ -1,0 +1,32 @@
+@media (min-width: 768px) {
+  .toolbar-buttons {
+    display: flex !important;
+  }
+  ion-menu-button {
+    display: none;
+  }
+}
+@media (max-width: 767px) {
+  .toolbar-buttons {
+    display: none;
+  }
+}
+
+.toolbar {
+  --background: transparent;
+  --padding-start: 16px;
+  --padding-end: 8rem;
+  margin-top: 2rem;
+  text-align: center;
+  box-shadow: none;
+}
+
+ion-button {
+  font-size: 1.1rem;
+  font-weight: bold;
+}
+
+ion-header {
+  --background: transparent;
+  box-shadow: none;
+}

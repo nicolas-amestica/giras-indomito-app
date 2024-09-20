@@ -1,0 +1,40 @@
+<ion-header>
+  <ion-toolbar class="toolbar">
+    <ion-buttons slot="start">
+      <ion-menu-button></ion-menu-button>
+    </ion-buttons>
+    <ion-buttons slot="end" class="toolbar-buttons">
+      <ion-button routerLink="home" routerLinkActive="active">Home</ion-button>
+      <ion-button routerLink="services" routerLinkActive="active">Servicios</ion-button>
+      <ion-button routerLink="contact" routerLinkActive="active">Contacto</ion-button>
+      <ion-button routerLink="about" routerLinkActive="active">Acerca</ion-button>
+    </ion-buttons>
+  </ion-toolbar>
+</ion-header>
+<ion-menu side="start" menuId="m1" contentId="main">
+  <ion-header>
+    <ion-toolbar class="toolbar">
+      <ion-title>
+        Giras indómito
+      </ion-title>
+    </ion-toolbar>
+  </ion-header>
+  <ion-content>
+    <ion-list>
+      <ion-menu-toggle>
+        <ion-item button routerLink="home" routerLinkActive="active">
+          <ion-label>Home</ion-label>
+        </ion-item>
+        <ion-item button routerLink="services" routerLinkActive="active">
+          <ion-label>Servicios</ion-label>
+        </ion-item>
+        <ion-item button routerLink="contact" routerLinkActive="active">
+          <ion-label>Contacto</ion-label>
+        </ion-item>
+        <ion-item button routerLink="about" routerLinkActive="active">
+          <ion-label>Acerca</ion-label>
+        </ion-item>
+      </ion-menu-toggle>
+    </ion-list>
+  </ion-content>
+</ion-menu>

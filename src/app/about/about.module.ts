@@ -2,11 +2,9 @@ import { NgModule } from '@angular/core';
 import { CommonModule } from '@angular/common';
 import { IonicModule } from '@ionic/angular';
 import { FormsModule } from '@angular/forms';
-import { HomePage } from './pages/home.page';
-import { HomePageRoutingModule } from './home-routing.module';
+import { AboutPage } from './pages/about.page';
 import { SharedModule } from '../shared/shared.module';
-import { Box1Component } from './components/box_1/box_1.component';
-import { Box2Component } from './components/box_2/box_2.component';
+import { AboutPageRoutingModule } from './about-routing.module';
 
 
 @NgModule({
@@ -14,13 +12,11 @@ import { Box2Component } from './components/box_2/box_2.component';
     CommonModule,
     FormsModule,
     IonicModule,
-    HomePageRoutingModule,
+    AboutPageRoutingModule,
     SharedModule,
   ],
   declarations: [
-    HomePage,
-    Box1Component,
-    Box2Component
+    AboutPage,
   ]
 })
-export class HomePageModule {}
+export class AboutPageModule {}

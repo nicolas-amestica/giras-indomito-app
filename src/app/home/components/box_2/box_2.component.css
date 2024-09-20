@@ -1,0 +1,17 @@
+ion-content {
+  --background: url('assets/backgrounds/fondo-web-2.jpg') no-repeat center center / cover;
+  text-align: center;
+}
+
+ion-card {
+  --background: #d7ff00;
+  --color: #000;
+}
+
+ion-card-title {
+  --color: #000;
+}
+
+ion-card-subtitle {
+  --color: #000;
+}
