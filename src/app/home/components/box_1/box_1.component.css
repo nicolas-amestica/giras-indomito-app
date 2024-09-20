@@ -1,8 +1,8 @@
-ion-content {
-  --background: url('assets/backgrounds/fondo-web.jpg') no-repeat center center / cover;
-  --padding-start: 16px;
-  --padding-end: 16px;
-  --padding-top: 10rem;
+.container {
+  background-image: url('../../../../assets/backgrounds/fondo-web.jpg');
+  background-size: 100%;
+  padding-top: 10rem;
+  padding-bottom: 10rem;
   max-height: 100%;
   text-align: center;
 }
