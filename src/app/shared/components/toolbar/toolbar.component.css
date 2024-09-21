@@ -14,6 +14,7 @@
 
 .toolbar {
   /* --background: transparent; */
+  opacity: 0.9;
   --padding-start: 16px;
   --padding-end: 8rem;
   padding-top: 1rem;
@@ -31,4 +32,5 @@ ion-button {
 ion-header {
   /* --background: transparent;
   box-shadow: none; */
+  opacity: 0.9;
 }
