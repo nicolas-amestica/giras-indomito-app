@@ -5,9 +5,11 @@ import { FormsModule } from '@angular/forms';
 import { HomePage } from './pages/home.page';
 import { HomePageRoutingModule } from './home-routing.module';
 import { SharedModule } from '../shared/shared.module';
-import { Box1Component } from './components/box_1/box_1.component';
-import { Box2Component } from './components/box_2/box_2.component';
-import { Box3Component } from './components/box_3/box_3.component';
+import { IntroductionComponent } from './components/introduction/introduction.component';
+import { DetailComponent } from './components/details/detail.component';
+import { UsComponent } from './components/us/us.component';
+import { ContactComponent } from './components/contact/contact.component';
+import { ExperiencesComponent } from './components/experiences/experiences.component';
 
 
 @NgModule({
@@ -20,9 +22,11 @@ import { Box3Component } from './components/box_3/box_3.component';
   ],
   declarations: [
     HomePage,
-    Box1Component,
-    Box2Component,
-    Box3Component
+    IntroductionComponent,
+    DetailComponent,
+    UsComponent,
+    ContactComponent,
+    ExperiencesComponent
   ]
 })
 export class HomePageModule {}

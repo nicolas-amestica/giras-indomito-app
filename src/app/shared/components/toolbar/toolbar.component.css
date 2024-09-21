@@ -13,12 +13,14 @@
 }
 
 .toolbar {
-  --background: transparent;
+  /* --background: transparent; */
   --padding-start: 16px;
   --padding-end: 8rem;
-  margin-top: 2rem;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+  /* margin-top: 2rem; */
   text-align: center;
-  box-shadow: none;
+  /* box-shadow: none; */
 }
 
 ion-button {
@@ -27,6 +29,6 @@ ion-button {
 }
 
 ion-header {
-  --background: transparent;
-  box-shadow: none;
+  /* --background: transparent;
+  box-shadow: none; */
 }
