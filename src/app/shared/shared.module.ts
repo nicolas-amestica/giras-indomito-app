@@ -4,6 +4,7 @@ import { IonicModule } from '@ionic/angular';
 import { FormsModule } from '@angular/forms';
 import { ToolbarComponent } from './components/toolbar/toolbar.component';
 import { RouterModule } from '@angular/router';
+import { FootbarComponent } from './components/footbar/footbar.component';
 
 @NgModule({
   imports: [
@@ -12,8 +13,14 @@ import { RouterModule } from '@angular/router';
     IonicModule,
     RouterModule
   ],
-  exports: [ToolbarComponent],
-  declarations: [ToolbarComponent],
+  exports: [
+    ToolbarComponent,
+    FootbarComponent
+  ],
+  declarations: [
+    ToolbarComponent,
+    FootbarComponent
+  ],
   providers: [],
 })
 export class SharedModule { }

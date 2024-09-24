@@ -5,6 +5,8 @@ import { FormsModule } from '@angular/forms';
 import { AboutPage } from './pages/about.page';
 import { SharedModule } from '../shared/shared.module';
 import { AboutPageRoutingModule } from './about-routing.module';
+import { IntroductionAboutComponent } from './components/introduction/introduction.component';
+import { ContentAboutComponent } from './components/content/content.component';
 
 
 @NgModule({
@@ -17,6 +19,8 @@ import { AboutPageRoutingModule } from './about-routing.module';
   ],
   declarations: [
     AboutPage,
+    IntroductionAboutComponent,
+    ContentAboutComponent
   ]
 })
 export class AboutPageModule {}

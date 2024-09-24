@@ -5,6 +5,9 @@ import { FormsModule } from '@angular/forms';
 import { ServicesPage } from './pages/services.page';
 import { ServicesPageRoutingModule } from './services-routing.module';
 import { SharedModule } from '../shared/shared.module';
+import { IntroductionServicesComponent } from './components/introduction/introduction.component';
+import { ContentServicesComponent } from './components/content/content.component';
+import { ContactServicesComponent } from './components/contact/contact.component';
 
 
 @NgModule({
@@ -15,6 +18,11 @@ import { SharedModule } from '../shared/shared.module';
     ServicesPageRoutingModule,
     SharedModule,
   ],
-  declarations: [ServicesPage]
+  declarations: [
+    ServicesPage,
+    IntroductionServicesComponent,
+    ContentServicesComponent,
+    ContactServicesComponent
+  ]
 })
 export class ServicesPageModule {}

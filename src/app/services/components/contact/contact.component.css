@@ -1,0 +1,16 @@
+.container4 {
+  background-image: url('../../../../assets/backgrounds/fondo-web-3.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  padding-top: 15rem;
+  padding-bottom: 5rem;
+  text-align: center;
+  color: black;
+  min-height: 100%;
+}
+
+ion-button {
+  --background: #D7FF00;
+  --color: black;
+  width: 15rem;
+}

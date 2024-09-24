@@ -5,6 +5,8 @@ import { FormsModule } from '@angular/forms';
 import { ContactPage } from './pages/contact.page';
 import { SharedModule } from '../shared/shared.module';
 import { ContactPageRoutingModule } from './contact-routing.module';
+import { IntroductionContactComponent } from './components/introduction/introduction.component';
+import { ContentContactComponent } from './components/content/content.component';
 
 
 @NgModule({
@@ -17,6 +19,8 @@ import { ContactPageRoutingModule } from './contact-routing.module';
   ],
   declarations: [
     ContactPage,
+    IntroductionContactComponent,
+    ContentContactComponent
   ]
 })
 export class ContactPageModule {}

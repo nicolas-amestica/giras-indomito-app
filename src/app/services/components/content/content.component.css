@@ -1,0 +1,34 @@
+.container2 {
+  background-color: #fff;
+  background-size: 100%;
+  padding-top: 10rem;
+  padding-bottom: 10rem;
+  min-height: 100%;
+  text-align: center;
+}
+
+.div-subtitle {
+  width: 60%;
+  padding-left: 20px;
+  padding-right: 20px;
+  margin: auto;
+  margin-bottom: 10rem;
+  text-align: justify;
+}
+
+p {
+  font-size: 1rem;
+  color: #000000;
+}
+
+.div-services-bariloche {
+  width: 60%;
+  margin: auto;
+  margin-bottom: 6rem;
+}
+
+ion-button {
+  --background: #D7FF00;
+  --color: black;
+  width: 15rem;
+}
