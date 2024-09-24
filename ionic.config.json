@@ -1,7 +1,0 @@
-{
-  "name": "giras-indomito-app-2",
-  "integrations": {
-    "capacitor": {}
-  },
-  "type": "angular"
-}
