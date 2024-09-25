@@ -1,104 +1,78 @@
 <div class="container8">
-  <ion-grid>
+  <div>
+    <h1>ESCRÍBENOS</h1>
+    <p>Puedes encontrarnos en nuestras redes sociales, escribirnos a nuestro correo electrónico, llamarnos
+      telefónicamente o simplemente completa y envía el formulario siguiente:</p>
+  </div>
+  <ion-grid fixed>
     <ion-row>
-      <ion-col size="1" sizeXs="0" sizeLg="1"></ion-col>
-      <ion-col size="5" sizeXs="12" sizeLg="5">
-        <ion-card style="background-color: white;">
-          <ion-card-header>
-            <ion-card-title>
-              <h1>ESCRÍBENOS</h1>
-            </ion-card-title>
-            <ion-card-subtitle>
-              <p>Puedes encontrarnos en nuestras redes sociales, escribirnos a nuestro correo electrónico, llamarnos
-                telefónicamente o simplemente completa y envía el formulario siguiente:</p>
-            </ion-card-subtitle>
-          </ion-card-header>
+      <ion-col size="12" sizeSm="12" sizeMd="6" sizeLg="6" sizeXl="6">
 
-          <ion-card-content>
-            <form [formGroup]="contactForm">
-              <ion-item>
-                <ion-label position="floating">Nombre</ion-label>
-                <ion-input type="text" autocomplete="name" required formControlName="name"></ion-input>
-              </ion-item>
+        <form [formGroup]="contactForm">
 
-              <ion-item>
-                <ion-label position="floating">Correo Electrónico</ion-label>
-                <ion-input type="email" autocomplete="email" required formControlName="email"></ion-input>
-              </ion-item>
+          <ion-item>
+            <ion-input label="Nombre" labelPlacement="floating" type="text" autocomplete="name" required
+              formControlName="name" placeholder="Ej: Nicolás..." class="custom-label"></ion-input>
+          </ion-item>
 
-              <ion-item>
-                <ion-label position="floating">Teléfono</ion-label>
-                <ion-input type="tel" autocomplete="tel" required formControlName="phone"></ion-input>
-              </ion-item>
+          <ion-item>
+            <ion-input label="Correo" labelPlacement="floating" type="email" autocomplete="email" required
+              formControlName="email" placeholder="Ej: envio@giras.cl..."></ion-input>
+          </ion-item>
 
-              <ion-item>
-                <ion-label position="floating">Mensaje</ion-label>
-                <ion-textarea required formControlName="message"></ion-textarea>
-              </ion-item>
-            </form>
-            <!-- <pre>{{ contactForm.value | json }}</pre> -->
-            <ion-button expand="full" type="submit">Enviar</ion-button>
-          </ion-card-content>
-        </ion-card>
+          <ion-item>
+            <ion-input label="Teléfono" labelPlacement="floating" type="tel" autocomplete="tel" required
+              formControlName="phone" placeholder="Ej: 93813657..."></ion-input>
+          </ion-item>
+
+          <ion-item>
+            <ion-textarea label="Mensaje" labelPlacement="floating" required formControlName="message"
+              placeholder="Ej: mensaje..."></ion-textarea>
+          </ion-item>
+
+          <ion-button expand="full" type="submit">Enviar</ion-button>
+
+        </form>
+
       </ion-col>
-      <ion-col size="5" sizeXs="12" sizeLg="5">
-        <ion-card style="background-color: white;">
-          <ion-card-header>
-            <ion-card-title>
-              <h1>CONTACTO</h1>
-            </ion-card-title>
-          </ion-card-header>
 
-          <ion-card-content>
 
-            <ion-item color="white">
-              <ion-icon style="color: black;" name="mail-outline" slot="start"></ion-icon>
-              <div>
-                <ion-label>
-                  <h3>CORREO</h3>
-                </ion-label>
-                <ion-label>
-                  <h3 style="color: #2C541D;">info&#64;girasindomito.cl</h3>
-                </ion-label>
-              </div>
-            </ion-item>
-            <br><br><br>
-            <ion-item color="white">
-              <ion-icon style="color: black;" name="call-outline" slot="start"></ion-icon>
-              <div>
-                <ion-label>
-                  <h3>TELÉFONO</h3>
-                </ion-label>
-                <ion-label>
-                  <h3 style="color: #2C541D;">+56 9 6355 2893</h3>
-                </ion-label>
-              </div>
-            </ion-item>
-            <br><br><br>
-            <ion-item color="white">
-              <div>
-                <ion-label>
-                  <h2>SÍGUENOS EN NUESTRAS REDES SOCIALES</h2>
-                </ion-label>
-                <br><br>
-                <a href="https://www.facebook.com/giras.indomito" target="_blank">
-                  <ion-icon style="color: #4D8DFF; font-size: 46px;" name="logo-facebook"></ion-icon>
-                </a>
-                &nbsp;
-                <a href="https://www.instagram.com/giras_indomito/" target="_blank">
-                  <ion-icon style="color: #E1306C; font-size: 46px;" name="logo-instagram"></ion-icon>
-                </a>
-                &nbsp;
-                <a href="https://wa.link/yhfi8d" target="_blank">
-                  <ion-icon style="color: #28A319; font-size: 46px;" name="logo-whatsapp"></ion-icon>
-                </a>
-              </div>
-            </ion-item>
 
-          </ion-card-content>
-        </ion-card>
+      <ion-col size="12" sizeSm="12" sizeMd="6" sizeLg="6" sizeXl="6">
+        <div>
+          <ion-label>
+            <h2>SÍGUENOS EN NUESTRAS REDES SOCIALES</h2>
+          </ion-label>
+          <br>
+
+
+          <ion-label>
+            <h1>Correo</h1>
+            <p>info&#64;girasindomito.cl</p>
+          </ion-label>
+
+          <br><br>
+
+          <ion-label>
+            <h1>Teléfono</h1>
+            <p>12374619832746</p>
+          </ion-label>
+
+          <br><br>
+
+          <a href="https://www.facebook.com/giras.indomito" target="_blank">
+            <ion-icon style="color: #4D8DFF; font-size: 46px;" name="logo-facebook"></ion-icon>
+          </a>
+          &nbsp;
+          <a href="https://www.instagram.com/giras_indomito/" target="_blank">
+            <ion-icon style="color: #E1306C; font-size: 46px;" name="logo-instagram"></ion-icon>
+          </a>
+          &nbsp;
+          <a href="https://wa.link/yhfi8d" target="_blank">
+            <ion-icon style="color: #28A319; font-size: 46px;" name="logo-whatsapp"></ion-icon>
+          </a>
+        </div>
       </ion-col>
-      <ion-col size="1" sizeXs="0" sizeLg="1"></ion-col>
     </ion-row>
   </ion-grid>
 </div>

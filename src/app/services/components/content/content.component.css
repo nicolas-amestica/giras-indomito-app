@@ -12,7 +12,7 @@
   padding-left: 20px;
   padding-right: 20px;
   margin: auto;
-  margin-bottom: 10rem;
+  /* margin-bottom: 1rem; */
   text-align: justify;
 }
 
@@ -22,7 +22,7 @@ p {
 }
 
 .div-services-bariloche {
-  width: 60%;
+  width: 70%;
   margin: auto;
   margin-bottom: 6rem;
 }
@@ -31,4 +31,17 @@ ion-button {
   --background: #D7FF00;
   --color: black;
   width: 15rem;
+}
+
+.col-container-img {
+  display: flex;
+  justify-content: center;  /* Centra horizontalmente */
+  align-items: center;      /* Centra verticalmente */
+  height: 100vh;            /* Altura del contenedor */
+  width: 100%;
+}
+
+ion-img {
+  max-width: 100%;         /* Ajusta el ancho máximo */
+  max-height: 100%;        /* Ajusta la altura máxima */
 }
