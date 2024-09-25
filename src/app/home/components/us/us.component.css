@@ -32,3 +32,10 @@ img {
 ion-grid {
   padding-bottom: 5rem;
 }
+
+ion-img {
+  width: 100%;
+  height: auto;
+  padding-left: 2rem;
+  padding-right: 2rem;
+}
