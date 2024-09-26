@@ -10,9 +10,9 @@ import { DetailComponent } from './components/details/detail.component';
 import { UsComponent } from './components/us/us.component';
 import { ContactComponent } from './components/contact/contact.component';
 import { ExperiencesComponent } from './components/experiences/experiences.component';
-import { register } from 'swiper/element';
+import { register as registerSwiperElements } from 'swiper/element/bundle';
 
-register();
+registerSwiperElements();
 
 @NgModule({
   imports: [
