@@ -1,3 +1,13 @@
+ion-card {
+  margin: 0px;
+  height: 3rem;
+}
+
+ion-card-header {
+  padding-top: 0.5rem;
+  padding-bottom: 0px;
+}
+
 ion-toolbar {
   text-align: center;
 }
