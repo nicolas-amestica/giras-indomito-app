@@ -1,6 +1,6 @@
 ion-card {
   margin: 0px;
-  height: 4rem;
+  max-height: 3.5rem;
 }
 
 ion-card-header {
