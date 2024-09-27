@@ -1,0 +1,13 @@
+.container12 {
+  background-image: url('../../../../assets/backgrounds/fondo-web-2.jpg');
+  background-size: 100%;
+  padding-top: 10rem;
+  padding-bottom: 10rem;
+  min-height: 100%;
+  text-align: center;
+}
+
+p {
+  font-size: 1rem;
+  color: #000000;
+}

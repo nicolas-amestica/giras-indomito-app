@@ -1,0 +1,27 @@
+.container {
+  background-image: url('../../../../assets/backgrounds/fondo-web.jpg');
+  background-size: 100%;
+  padding-top: 10rem;
+  padding-bottom: 10rem;
+  min-height: 100%;
+  text-align: center;
+}
+
+h1 {
+  font-size: 4rem;
+  color: #D7FF00;
+  margin-bottom: 2rem;
+}
+
+p {
+  font-size: 1rem;
+  color: #D7FF00;
+}
+
+.ionCard {
+  max-width: 55rem;
+  margin: auto;
+  margin-top: 2rem;
+  background-color: transparent;
+  box-shadow: none;
+}

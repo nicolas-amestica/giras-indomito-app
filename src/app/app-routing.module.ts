@@ -6,6 +6,7 @@ export const ROOT_ROUTES = {
   services        : 'services',
   contact         : 'contact',
   about           : 'about',
+  programs        : 'programs',
 };
 
 const routes: Routes = [
@@ -18,6 +19,9 @@ const routes: Routes = [
   }, {
     path: ROOT_ROUTES.contact,
     loadChildren: () => import('./contact/contact.module').then((m) => m.ContactPageModule)
+  }, {
+    path: ROOT_ROUTES.programs,
+    loadChildren: () => import('./programs/programs.module').then((m) => m.ProgramsPageModule)
   }, {
     path: ROOT_ROUTES.about,
     loadChildren: () => import('./about/about.module').then((m) => m.AboutPageModule)
